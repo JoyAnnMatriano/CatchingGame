@@ -58,6 +58,7 @@ namespace CatchingGame
             this.start_btn.TabIndex = 1;
             this.start_btn.Text = "START";
             this.start_btn.UseVisualStyleBackColor = true;
+            this.start_btn.Click += new System.EventHandler(this.start_btn_Click);
             // 
             // help_btn
             // 
@@ -71,6 +72,7 @@ namespace CatchingGame
             this.help_btn.TabIndex = 1;
             this.help_btn.Text = "HELP";
             this.help_btn.UseVisualStyleBackColor = true;
+            this.help_btn.Click += new System.EventHandler(this.help_btn_Click);
             // 
             // quit_btn
             // 
@@ -84,6 +86,7 @@ namespace CatchingGame
             this.quit_btn.TabIndex = 1;
             this.quit_btn.Text = "QUIT GAME";
             this.quit_btn.UseVisualStyleBackColor = true;
+            this.quit_btn.Click += new System.EventHandler(this.quit_btn_Click);
             // 
             // Form1
             // 
